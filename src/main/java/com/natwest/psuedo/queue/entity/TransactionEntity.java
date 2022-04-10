@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class transactionEntity {
+public class TransactionEntity {
 
     @Id
     @Column(name = "TRANSACTION_ID")
@@ -18,18 +18,18 @@ public class transactionEntity {
     private Integer transactionId;
 
     @Column(name = "ACCOUNT_NUMBER")
-    private String accountNumber;
+    private String AccountNumber;
 
     @Column(name = "TYPE")
-    private String type;
+    private String Type;
 
     @Column(name = "AMOUNT")
-    private Long amount;
+    private String Amount;
 
     @Column(name = "CURRENCY")
-    private String currency;
+    private String Currency;
 
     @Column(name = "ACCOUNT_FROM")
-    private String accountFrom;
+    private String AccountFrom;
 
 }

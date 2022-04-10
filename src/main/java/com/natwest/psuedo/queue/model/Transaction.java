@@ -16,17 +16,17 @@ public class Transaction implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @NotNull(message = "Account number cannot be null")
-    private String accountNumber;
+    private String AccountNumber;
 
     @NotNull(message = "Type cannot be null")
-    private String type;
+    private String Type;
 
     @NotNull(message = "Amount cannot be null")
-    private Long amount;
+    private String Amount;
 
     @NotNull(message = "Currency cannot be null")
-    private String currency;
+    private String Currency;
 
     @NotNull(message = "Account from cannot be null")
-    private String accountFrom;
+    private String AccountFrom;
 }
